@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Clients</title>
+    <title>Site Web pour TP N°6</title>
 </head>
 <body>
     <h1>Site Web pour TP N°6</h1>
 <div>
     <div id="id_div">
             <h2>Ajouter un client:</h2>
-            <form action="site.php" method='post' id="form">
+            <form action="index.php" method='post' id="form">
                 <table>
                     <tr>
                         <td>ID</td>
@@ -48,7 +48,7 @@
         <hr>
 
         <h2>Supprimer un client</h2>
-        <form action="site.php" method="get">
+        <form action="index.php" method="get">
             ID: <input type="number" name="id_client" required>&nbsp;
             <input type="submit" value="Supprimer">
         </form>
@@ -62,7 +62,7 @@
     </div>
     <div id="id_div">
     <h2>Ajouter un produit:</h2>
-    <form action="site.php" method='post' id="form">
+    <form action="index.php" method='post' id="form">
         <table>
             <tr>
                 <td>ID</td>
@@ -97,7 +97,7 @@
     <hr>
 
     <h2>Supprimer un produit</h2>
-    <form action="site.php" method="get">
+    <form action="index.php" method="get">
         ID: <input type="number" name="id_produit" required>&nbsp;
         <input type="submit" value="Supprimer">
     </form>
@@ -111,7 +111,7 @@
     </div>
     <div id="id_div">
         <h2>Ajouter une commande:</h2>
-    <form action="site.php" method='post' id="form">
+    <form action="index.php" method='post' id="form">
         <table>
             <tr>
                 <td>ID</td>
@@ -146,7 +146,7 @@
     <hr>
 
     <h2>Supprimer une commande</h2>
-    <form action="site.php" method="get">
+    <form action="index.php" method="get">
         ID: <input type="number" name="id_commande" required>&nbsp;
         <input type="submit" value="Supprimer">
     </form>
