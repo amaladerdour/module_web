@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clients</title>
+    <title>Produit</title>
 </head>
 <body>
     <h2>Ajouter un produit:</h2>
@@ -16,7 +16,7 @@
             </tr>
             <tr>
                 <td>Nom</td>
-                <td><input type="text" name="nom_produit"> </td>
+                <td><input type="text" name="nom_produit"></td>
             </tr>
             <tr>
                 <td>Prix</td>
