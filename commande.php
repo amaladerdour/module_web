@@ -20,7 +20,7 @@
             </tr>
             <tr>
                 <td>ID clinet</td>
-                <td><input type="text" name="id_clinetC"> </td>
+                <td><input type="text" name="id_clientC"> </td>
             </tr>
             <tr>
                 <td>Quantite</td>
@@ -32,8 +32,8 @@
             </tr>
         </table>
     </form>
-    <?php if(isset($_POST['id_commande']) && isset($_POST['id_produit']) &&
-    isset($_POST['id_client']) && isset($_POST['quantite_produit'])){
+    <?php if(isset($_POST['id_commande']) && isset($_POST['id_produitC']) &&
+    isset($_POST['id_clientC']) && isset($_POST['quantite_produit'])){
         $id_commande = $_POST["id_commande"];
         $id_produit = $_POST["id_produitC"];
         $id_client = $_POST["id_clientC"];
